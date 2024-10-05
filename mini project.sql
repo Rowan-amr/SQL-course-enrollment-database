@@ -203,9 +203,6 @@ from students
 
 
 
-
-
-
 SELECT 
     c.course_name
 FROM 
@@ -216,8 +213,6 @@ WHERE
         FROM enrollments e
         WHERE e.course_id = c.course_id
     );
-
-
 
 
 SELECT 
